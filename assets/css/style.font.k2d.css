@@ -1,5 +1,5 @@
    @font-face {
-      font-family: "K2D";
+      font-family: 'K2D';
       src: url('http://erizmr.github.io/assets/fonts/K2D-Bold.ttf');
       src: 
        url('http://erizmr.github.io/assets/fonts/K2D-Bold.ttf') format('truetype'),
@@ -8,10 +8,19 @@
    }
 
     @font-face {
-      font-family: "K2D Medium";
+      font-family: 'K2D Medium';
       src: url('http://erizmr.github.io/assets/fonts/K2D-Medium.ttf');
       src: 
        url('http://erizmr.github.io/assets/fonts/K2D-Medium.ttf') format('truetype'),
+      font-weight: normal;
+      font-style: normal;
+   }
+
+    @font-face {
+      font-family: 'texgyrepagella';
+      src: url('http://erizmr.github.io/assets/fonts/texgyrepagella-regular.otf');
+      src: 
+       url('http://erizmr.github.io/assets/fonts/texgyrepagella-regular.otf') format("opentype");,
       font-weight: normal;
       font-style: normal;
    }
