@@ -1,10 +1,8 @@
    @font-face {
       font-family: "K2D";
       src: url('http://erizmr.github.io/assets/fonts/K2D-Bold.ttf');
-      src: url('http://erizmr.github.io/assets/fonts/K2D-Bold.ttf') format('embedded-opentype'),
-           url('http://erizmr.github.io/assets/fonts/K2D-Bold.ttf') format('woff'),
+      src: 
        url('http://erizmr.github.io/assets/fonts/K2D-Bold.ttf') format('truetype'),
-       url('http://erizmr.github.io/assets/fonts/K2D-Bold.ttf') format('svg');
       font-weight: normal;
       font-style: normal;
    }
@@ -12,10 +10,8 @@
     @font-face {
       font-family: "K2D Medium";
       src: url('http://erizmr.github.io/assets/fonts/K2D-Medium.ttf');
-      src: url('http://erizmr.github.io/assets/fonts/K2D-Medium.ttf') format('embedded-opentype'),
-           url('http://erizmr.github.io/assets/fonts/K2D-Medium.ttf') format('woff'),
+      src: 
        url('http://erizmr.github.io/assets/fonts/K2D-Medium.ttf') format('truetype'),
-       url('http://erizmr.github.io/assets/fonts/K2D-Medium.ttf') format('svg');
       font-weight: normal;
       font-style: normal;
    }
