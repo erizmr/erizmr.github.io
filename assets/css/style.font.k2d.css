@@ -18,9 +18,7 @@
 
     @font-face {
       font-family: 'texgyrepagella';
-      src: url('http://erizmr.github.io/assets/fonts/texgyrepagella-regular.otf');
-      src: 
-       url('http://erizmr.github.io/assets/fonts/texgyrepagella-regular.otf') format("opentype");,
+      src: url('http://erizmr.github.io/assets/fonts/texgyrepagella-regular.otf')format("opentype");
       font-weight: normal;
       font-style: normal;
    }
