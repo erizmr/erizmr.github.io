@@ -50,13 +50,13 @@
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu">
+  <!-- <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
       <a class="navbar-item" href="https://keunhong.com">
       <span class="icon">
           <i class="fas fa-home"></i>
       </span>
-      </a>
+      </a> -->
 
       <!-- <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
@@ -77,9 +77,9 @@
           </a>
         </div>
       </div> -->
-    </div>
+    <!-- </div> -->
 
-  </div>
+  <!-- </div> -->
 </nav>
 
 
@@ -88,7 +88,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Towards Universal Mesh Movement Networks</h1>
+          <h1 class="title is-1 publication-title">UM2N: Towards Universal Mesh Movement Networks</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://erizmr.github.io/">Mingrui Zhang</a><sup>1</sup>,</span>
@@ -275,6 +275,18 @@
         </div>
       </div>
     </div>
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <div class="column">
+            <img src="static/images/framework_new.png" alt="framework" style="width:100%">
+          </div>
+        </div>
+      </div>
+      <p><b>Framework:</b> The proposed UM2N framework. Given an input mesh, vertex features and edge features are collected separately. 
+        The coordinates and monitor function values are gathered from the vertices and input into a graph transformer to extract embeddings. 
+        The embedding vector obtained from the graph transformer encoder is then concatenated with the extracted edge features to serve as the input for the Graph Attention Network (GAT) decoder. 
+        The decoder processes this combined input along with a mesh query to ultimately produce an adapted mesh. .</p>
     <!--/ Abstract. -->
 
     <!-- Paper video. -->
@@ -299,14 +311,15 @@
     </div> -->
 
 
+
   </div>
 </section>
 
 
-<section class="section">
+<!-- <section class="section">
   <div class="container is-max-desktop">
 
-    <div class="columns is-centered">
+    <div class="columns is-centered"> -->
 
       <!-- Visual Effects. -->
       <!-- <div class="column">
@@ -405,7 +418,7 @@
         <!--/ Re-rendering. -->
 
       <!-- </div>
-    </div> --> -->
+    </div> 
     <!--/ Animation. -->
 
 
@@ -436,8 +449,8 @@
     </div> -->
     <!--/ Concurrent Work. -->
 
-  </div>
-</section>
+  <!-- </div>
+</section> -->
 
 
 <section class="section" id="BibTeX">
@@ -445,7 +458,7 @@
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{zhang2024um2n,
   author    = {Mingrui Zhang, Chunyang Wang, Stephan Kramer, Joseph G Wallwork, Siyi Li, Jiancheng Liu, Xiang Chen, Matthew D Piggott},
-  title     = {Towards Universal Mesh Movement Networks},
+  title     = {UM2N: Towards Universal Mesh Movement Networks},
   journal   = {arxiv},
   year      = {2024},
 }</code></pre>
